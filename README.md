@@ -1,7 +1,7 @@
 # Minecraft 项目
 
-## 正在开发ing……
+## 正式上线
 
-[~~Minecraft Datapack Common Library~~](https://github.com/GetSoftwares/Minecraft-Datapack-Common-Library)（近日上线）
+[Minecraft Datapack Common Library](https://github.com/GetSoftwares/Minecraft-Datapack-Common-Library)
 
-~~[SpyglassMC Files](https://github.com/GetSoftwares/SpyglassMCFiles)~~（近日上线）
+[SpyglassMC Files](https://github.com/GetSoftwares/SpyglassMCFiles)
