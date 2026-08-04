@@ -1,0 +1,37 @@
+这是给 MC 笨石的快照服务器的结构所编写的手册。
+要加入 MC 笨石的快照服务器，请在 B 站搜索“MC笨石”，然后看置顶动态。
+
+结构方块手册
+这里存储了服务器中的一些结构的名称和格式。
+铁路：
+结构名称格式为 rail:<type>/<template>[/<mode>]。
+    桥梁：
+        <type> 为 bridge。
+        它具有以下模板：
+            whxgj
+                <template> 为 whxgj。
+                <mode> 为 6/12/18/24/30/36/42/48。
+    隧道：
+        <type> 为 suidao。
+        它具有以下模板：
+            suidao21
+                <template> 为 suidao21。
+                <mode> 为 6/12/18/24/30/36/42/48。
+    车站：
+        <type> 为 station。
+        它具有以下模板：
+            whzxt
+                <template> 为 whzxt。
+                该模板没有 mode 字段。
+            prismarine_quartz_copper
+                <template> 为 prismarine_quartz_copper。
+                它具有以下规格：
+                    no_wall（没有墙体）
+                    has_wall（有墙体）
+图标：
+结构名称格式为 icon:<source>/<icon>。
+    Minecraft:
+        <source> 为 minecraft。
+        <icon> 可以是：
+            friend_list（好友列表）
+            report_bug（汇报漏洞）
