@@ -11,23 +11,76 @@
             whxgj
                 <template> 为 whxgj。
                 <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 5*5*<mode>。
+            whxgj_4rails
+                <template> 为 whxgj_4rails。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 9*5*<mode>。
+            gaojia2
+                <template> 为 gaojia2。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 7*7*<mode>。
+            gaojia2_4rails
+                <template> 为 gaojia2_4rails。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 11*7*<mode>。
+            gaojia2_core
+                <template> 为 gaojia2_core。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 5*7*<mode>。
+            gaojia2_double_lines
+                <template> 为 gaojia2_double_lines。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 12*5*<mode>。
     隧道：
-        <type> 为 suidao。
+        <type> 为 tunnel。suidao21 和 suidao21_4rails 还有 <type> 为 suidao 的形式，但现已弃用。
         它具有以下模板：
             suidao21
                 <template> 为 suidao21。
                 <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 7*5*<mode>。
+            suidao21_4rails
+                <template> 为 suidao21_4rails。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 11*5*<mode>。
+            under_sea
+                <template> 为 under_sea。
+                <mode> 为 8/16/24/32/40/48。
+                尺寸为 7*6*<mode>。
     车站：
         <type> 为 station。
         它具有以下模板：
-            whzxt
-                <template> 为 whzxt。
+            whxzt
+                <template> 为 whxzt，尺寸为 21*12*12。
+                该模板没有 mode 字段。
+            ztmb
+                <template> 为 ztmb，尺寸为 25*10*12。
                 该模板没有 mode 字段。
             prismarine_quartz_copper
                 <template> 为 prismarine_quartz_copper。
-                它具有以下规格：
-                    no_wall（没有墙体）
-                    has_wall（有墙体）
+                <mode> 可以是：
+                    no_wall（没有墙体），尺寸为 21*11*9
+                    has_wall（有墙体），尺寸为 23*11*11
+            sulfur_cube_4rails
+                <template> 为 sulfur_cube_4rails。
+                <mode> 可以是：
+                    troroughfare_transfer（通道换乘）
+            prismarine
+                <template> 为 prismarine。
+                <mode> 可以是：
+                    island_station（岛式站台），尺寸为 13*12*33
+    车站出入口：
+        <type> 为 station_enter。
+        它具有以下模板：
+            crk
+            <template> 为 crk。
+            该模板没有 mode 字段。
+    柱子：
+        <type> 为 pillar。
+        它具有以下模板：
+            ditielizhu
+                <template> 为 ditielizhu。
+                该模板没有 mode 字段。
 图标：
 结构名称格式为 icon:<source>/<icon>。
     Minecraft:
@@ -35,3 +88,6 @@
         <icon> 可以是：
             friend_list（好友列表）
             report_bug（汇报漏洞）
+特殊的结构
+    minecraft:tmp
+        这个结构用于保存临时性结构。
