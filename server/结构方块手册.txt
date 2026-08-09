@@ -8,14 +8,29 @@
     桥梁：
         <type> 为 bridge。
         它具有以下模板：
-            whxgj
-                <template> 为 whxgj。
+            double_layers
+                <template> 为 double_layers。
+                <mode> 分为 _6block 后缀和 _8block 后缀，其中
+                    _6block 后缀的规格为 6/12/18/24/30/36/42/48，尺寸为 3*6*<规格>
+                    _8block 后缀的规格为 8/16/24/32/40/48，尺寸为 3*6*<规格>
+            end_city
+                <template> 为 end_city。
                 <mode> 为 6/12/18/24/30/36/42/48。
                 尺寸为 5*5*<mode>。
-            whxgj_4rails
-                <template> 为 whxgj_4rails。
+            end_city_2lines
+                <template> 为 end_city_2lines。
+                <mode> 分为 _6block 后缀和 _8block 后缀，其中
+                    _6block 后缀的规格为 6/12/18/24/30/36/42/48，尺寸为 9*5*<规格>
+                    _8block 后缀的规格为 8/16/24/32/40/48，尺寸为 9*5*<规格>
+            end_city_4rails
+                <template> 为 end_city_4rails。
+                <mode> 分为 _6block 后缀和 _8block 后缀，其中
+                    _6block 后缀的规格为 6/12/18/24/30/36/42/48，尺寸为 9*5*<规格>
+                    _8block 后缀的规格为 8/16/24/32/40/48，尺寸为 9*5*<规格>
+            gaojia
+                <template> 为 gaojia。
                 <mode> 为 6/12/18/24/30/36/42/48。
-                尺寸为 9*5*<mode>。
+                尺寸为 7*7*<mode>。
             gaojia2
                 <template> 为 gaojia2。
                 <mode> 为 6/12/18/24/30/36/42/48。
@@ -32,9 +47,44 @@
                 <template> 为 gaojia2_double_lines。
                 <mode> 为 6/12/18/24/30/36/42/48。
                 尺寸为 12*5*<mode>。
+            sand
+                <template> 为 sand。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 5*5*<mode>。
+            sand_2lines
+                <template> 为 sand_2lines。
+                <mode> 分为 _6block 后缀和 _8block 后缀，其中
+                    _6block 后缀的规格为 6/12/18/24/30/36/42/48，尺寸为 9*5*<规格>
+                    _8block 后缀的规格为 8/16/24/32/40/48，尺寸为 9*5*<规格>
+            sand_4rails
+                <template> 为 sand_4rails。
+                <mode> 分为 _6block 后缀和 _8block 后缀，其中
+                    _6block 后缀的规格为 6/12/18/24/30/36/42/48，尺寸为 9*5*<规格>
+                    _8block 后缀的规格为 8/16/24/32/40/48，尺寸为 9*5*<规格>
+            whxgj
+                <template> 为 whxgj。
+                <mode> 分为 _6block 后缀和 _8block 后缀，其中
+                    _6block 后缀的规格为 6/12/18/24/30/36/42/48，尺寸为 3*6*<规格>
+                    _8block 后缀的规格为 8/16/24/32/40/48，尺寸为 3*6*<规格>
+            whxgj_2lines
+                <template> 为 whxgj_2lines。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 9*5*<mode>。
+            whxgj_4rails
+                <template> 为 whxgj_4rails。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 9*5*<mode>。
     隧道：
         <type> 为 tunnel。suidao21 和 suidao21_4rails 还有 <type> 为 suidao 的形式，但现已弃用。
         它具有以下模板：
+            lhxsd
+                <template> 为 lhxsd。
+                <mode> 为 6/12/18/24/30/36/42/48。
+                尺寸为 5*6*<mode>。
+            loutiansuidao
+                <template> 为 loutiansuidao。
+                <mode> 为 8/16/24/32/40/48。
+                尺寸为 7*6*<mode>。
             suidao21
                 <template> 为 suidao21。
                 <mode> 为 6/12/18/24/30/36/42/48。
@@ -47,15 +97,44 @@
                 <template> 为 under_sea。
                 <mode> 为 8/16/24/32/40/48。
                 尺寸为 7*6*<mode>。
+            under_sea2
+                <template> 为 under_sea2。
+                <mode> 为 8/16/24/32/40/48。
+                尺寸为 7*6*<mode>。
     车站：
         <type> 为 station。
         它具有以下模板：
-            whxzt
-                <template> 为 whxzt，尺寸为 21*12*12。
+            bamboo_jungle
+                <template> 为 bamboo_jungle。
+                <mode> 可以是：
+                    simple（简单车站），尺寸为
+            desert_simple
+                <template> 为 desert_simple。
+                <mode> 可以是：
+                    island_station（岛式站台），尺寸为
+            desert_supply（沙漠补给站）
+                <template> 为 desert_supply。
+                <mode> 可以是：
+                    sand（沙子），尺寸为
+            gray_frame
+                <template> 为 gray_frame。
                 该模板没有 mode 字段。
-            ztmb
-                <template> 为 ztmb，尺寸为 25*10*12。
-                该模板没有 mode 字段。
+            ocean
+                <template> 为 ocean。
+                <mode> 可以是：
+                    island_station（岛式站台），尺寸为 13*11*21
+            ocean_bridge
+                <template> 为 ocean_bridge。
+                <mode> 可以是：
+                    4rails（4 条铁轨），尺寸为 23*11*33
+            pillager_stop
+                <template> 为 pillager_stop。
+                <mode> 可以是：
+                    island_station（岛式站台），尺寸为 13*18*17
+            prismarine
+                <template> 为 prismarine。
+                <mode> 可以是：
+                    island_station（岛式站台），尺寸为 13*12*33
             prismarine_quartz_copper
                 <template> 为 prismarine_quartz_copper。
                 <mode> 可以是：
@@ -64,28 +143,53 @@
             sulfur_cube_4rails
                 <template> 为 sulfur_cube_4rails。
                 <mode> 可以是：
-                    troroughfare_transfer（通道换乘）
-            prismarine
-                <template> 为 prismarine。
+                    troroughfare_transfer（通道换乘），尺寸为 21*12*33
+            under_ice_river
+                <template> 为 under_ice_river。
                 <mode> 可以是：
-                    island_station（岛式站台），尺寸为 13*12*33
+                    cross_exit（错位出口），尺寸为 21*11*11
+            whxzt
+                <template> 为 whxzt，尺寸为 21*12*12。
+                该模板没有 mode 字段。
+            ztmb
+                <template> 为 ztmb，尺寸为 25*10*12。
+                该模板没有 mode 字段。
     车站出入口：
         <type> 为 station_enter。
         它具有以下模板：
             crk
-            <template> 为 crk。
-            该模板没有 mode 字段。
+                <template> 为 crk。
+                该模板没有 mode 字段。
+    车站分片：
+        <type> 为 station_part。
+        它具有以下模板：
+            high_1
+                <template> 为 high_1。
+                <mode> 可以是：
+                    rail（铁路层），尺寸为 17*5*12
+            line5_1
+                <template> 为 line5_1。
+                <mode> 可以是：
+                    rail（铁路层），尺寸为 15*5*10
     柱子：
         <type> 为 pillar。
         它具有以下模板：
             ditielizhu
                 <template> 为 ditielizhu。
                 该模板没有 mode 字段。
+    转弯：
+        <type> 为 turn。
+        它具有以下模板：
+            under_sea
+                <template> 为 under_sea。
+                <mode> 可以是：
+                    turn_left（向左转），尺寸为 7*6*7
 图标：
 结构名称格式为 icon:<source>/<icon>。
     Minecraft:
         <source> 为 minecraft。
         <icon> 可以是：
+            diamond_spear（钻石矛）
             friend_list（好友列表）
             report_bug（汇报漏洞）
 特殊的结构
