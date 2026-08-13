@@ -20,6 +20,12 @@
 
 [我的世界Java版26.3快照6更新：再也不怕Alt+F4骗局！](https://www.bilibili.com/video/BV1C13B6LE1j/)
 
+[我的世界Java版26.3快照7更新：多彩更新第二部分？](https://www.bilibili.com/video/BV1oZM66PE6M/)
+
+[我的世界Java版26.3快照8更新：语言缺失和其他特性修复！](https://www.bilibili.com/video/BV1Negj6nEsm/)
+
+[坐垫放置大增强！现可与玻璃或树叶共存！](https://www.bilibili.com/video/BV11JgJ64E9s/)
+
 ## 在快照服的文档
 
 [结构方块手册](server/结构方块手册.txt)

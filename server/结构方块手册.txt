@@ -8,6 +8,10 @@
     桥梁：
         <type> 为 bridge。
         它具有以下模板：
+            daoshigaojia
+                <template> 为 daoshigaojia。
+                <mode> 为 12/24/36/48。
+                尺寸为 3*5*<mode>。
             double_layers
                 <template> 为 double_layers。
                 <mode> 分为 _6block 后缀和 _8block 后缀，其中
@@ -93,6 +97,14 @@
                 <template> 为 suidao21_4rails。
                 <mode> 为 6/12/18/24/30/36/42/48。
                 尺寸为 11*5*<mode>。
+            suidao3.1
+                <template> 为 lhxsd。
+                <mode> 为 24/48。
+                尺寸为 5*6*<mode>。
+            suidao4
+                <template> 为 suidao4。
+                <mode> 为 21。
+                尺寸为 15*6*<mode>。
             under_sea
                 <template> 为 under_sea。
                 <mode> 为 8/16/24/32/40/48。
@@ -192,6 +204,84 @@
             diamond_spear（钻石矛）
             friend_list（好友列表）
             report_bug（汇报漏洞）
+游戏玩法：
+结构名称为 gameplay:<type>/<subtype>，具体结构请参见各类型说明。
+    附属设施：
+        <type> 为 structure。
+        它的结构名称格式为 gameplay:structure/<structure>/<substructure>。
+        它具有以下结构：
+            信标塔
+                <structure> 为 beacon。
+                它的结构名称格式为 gameplay:structure/beacon/<material>/level_<level>/<effects>。
+                <material> 可以是：
+                    diamond_block
+                    netherite_block
+                    emerald_block
+                    gold_block
+                    iron_block
+                <level> 可以是 1~4 的整数。
+                <effects> 可以是下列单个效果：
+                    1 级+：
+                    no_effect
+                    speed
+                    haste
+                    2 级+：
+                    resistance
+                    jump_boost
+                    3 级+：
+                    strength
+                    4 级：
+                    regeneration
+                除了 no_effect 和 regeneration，剩余的效果都有强化变种，均以 strong_ 开头。
+                或以下组合效果（仅限 4 级）：
+                    speed_regeneration
+                    haste_regeneration
+                    resistance_regeneration
+                    jump_boost_regeneration
+                    strength_regeneration
+                尺寸与 <level> 有关，根据 <level> 的不同，尺寸可以为：
+                    1 级，3*2*3
+                    2 级，5*3*5
+                    3 级，7*4*7
+                    4 级，9*5*9
+            交易站
+                <structure> 为 supply。
+                它的结构名称格式为 gameplay:structure/supply/tier_<level>/<type>。
+                <level> 可以是 1~3。
+                <type> 可以是以下值：
+                    stripped_oak_log
+            收购站
+                <structure> 为 buy。
+                它的结构名称格式为 gameplay:structure/buy/<type>。
+                <type> 可以是以下值：
+                    stripped_oak_log
+    游戏设施：
+        <template> 为 game。
+        它的结构名称格式为 gameplay:game/<game>/<type>。
+        它具有以下结构：
+            飞行
+                <game> 为 fly。
+                它的结构名称格式为 gameplay:game/fly/<type>/<subtype>。
+                <type> 可以是：
+                    环
+                        <type> 为 ring。
+                        <subtype> 可以是：
+                            black
+                            blue
+                            brown
+                            cyan
+                            gray
+                            green
+                            light_blue
+                            lime
+                            magenta
+                            orange
+                            pink
+                            purple
+                            red
+                            white
+                            yellow
+                        尺寸为 9*16*7。
 特殊的结构
     minecraft:tmp
         这个结构用于保存临时性结构。
