@@ -6,6 +6,14 @@
 
 # Minecraft 项目
 
+## 我报告的 BUG
+
+[MC-309229：deprecated.json 中存在对翻译键 subtitles.entity.sulfur_cube.squish 的无意义替换](https://bugs.mojang.com/browser/MC-309229)
+
+[MC-310337：游戏日志会输出错误的需要 pack_format 字段的最低版本（已修复）](https://bugs.mojang.com/browser/MC-310337)
+
+[MC-310962：为村民用命令设置交易时，交易界面会闪退（已修复）](https://bugs.mojang.com/browser/MC-310962)
+
 ## 正式上线
 
 [Minecraft Datapack Common Library](https://github.com/GetSoftwares/Minecraft-Datapack-Common-Library)
