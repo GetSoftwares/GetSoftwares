@@ -34,6 +34,8 @@
 
 [坐垫放置大增强！现可与玻璃或树叶共存！](https://www.bilibili.com/video/BV11JgJ64E9s/)
 
+[久违的末影人特性调整，有哪些亮点？](https://www.bilibili.com/video/BV1aFbk65E8N/)
+
 ## 在快照服的文档
 
 [结构方块手册](server/结构方块手册.txt)
