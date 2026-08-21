@@ -36,6 +36,8 @@
 
 [久违的末影人特性调整，有哪些亮点？](https://www.bilibili.com/video/BV1aFbk65E8N/)
 
+[这视频是嗅探兽最有用的一集](https://www.bilibili.com/video/BV1t98T65EYR/)
+
 ## 在快照服的文档
 
 [结构方块手册](server/结构方块手册.txt)

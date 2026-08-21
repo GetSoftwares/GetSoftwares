@@ -8,6 +8,12 @@
     桥梁：
         <type> 为 bridge。
         它具有以下模板：
+            bamboo_bridge
+                <template> 为 bamboo_bridge。
+                <mode> 可以是：
+                    section_1，尺寸为 5*6*11
+                    section_2，尺寸为 5*6*23
+                    section_3，尺寸为 5*6*35
             daoshigaojia
                 <template> 为 daoshigaojia。
                 <mode> 为 12/24/36/48。
