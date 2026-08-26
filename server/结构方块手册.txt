@@ -210,6 +210,16 @@
             diamond_spear（钻石矛）
             friend_list（好友列表）
             report_bug（汇报漏洞）
+玩家雕像：
+结构名称为 player:<playername>。
+<playername> 可以是：
+    getsoftwares（GetSoftwares）
+    lys_123abc（lys_123ABC）
+    moyu_mc2026（MoYu_Mc2026）
+    noescape1145（NOESCAPE1145）
+    jyn2018x（JYN2018X）
+    sovietfox（SovietFoxWZH）
+    mcstone（MCStoneBen）
 游戏玩法：
 结构名称为 gameplay:<type>/<subtype>，具体结构请参见各类型说明。
     附属设施：

@@ -38,6 +38,10 @@
 
 [这视频是嗅探兽最有用的一集](https://www.bilibili.com/video/BV1t98T65EYR/)
 
+[我的世界Java版26.3快照10更新：各种特性和bug修复！](https://www.bilibili.com/video/BV1gbhj6jEd5/)
+
+后续项目请见我的 B 站 **[GetSoftwares](https://space.bilibili.com/3744990356310683/)**。
+
 ## 在快照服的文档
 
 [结构方块手册](server/结构方块手册.txt)
