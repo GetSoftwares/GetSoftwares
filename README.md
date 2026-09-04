@@ -2,6 +2,8 @@
 
 ## 正式上线
 
+[你不知道的注册表文件](https://github.com/GetSoftwares/You-Don-t-Known-the-Registry-File)
+
 [TechnicalDocs](https://github.com/GetSoftwares/TechnicalDocs)
 
 # Minecraft 项目
@@ -14,13 +16,15 @@
 
 [MC-310962：为村民用命令设置交易时，交易界面会闪退（已修复）](https://bugs.mojang.com/browser/MC-310962)
 
+[MC-311430：废弃营地结构标签“on_abandoned_camp_windswept”没有显示完整的生物群系名称（已修复）](https://bugs.mojang.com/browser/MC-311430)
+
 ## 正式上线
 
 [Minecraft Datapack Common Library](https://github.com/GetSoftwares/Minecraft-Datapack-Common-Library)
 
 [SpyglassMC Files](https://github.com/GetSoftwares/SpyglassMCFiles)
 
-## 我在笨石的快照服参与的项目（我没 B 站，只能这样了）
+## 我在笨石的快照服参与的项目
 
 [麻将扔下重磅炸弹！混凝土楼梯&台阶！嗅探兽也更新了！](https://www.bilibili.com/video/BV16eMr6zEHd/)
 
